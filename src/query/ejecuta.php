@@ -10,7 +10,7 @@ class ejecuta
     {
         try
         {
-            $cc= new Database("barberia","admin","1234");
+            $cc= new Database("barberia","root","1234");
             $objetoPDO=$cc->getPDO();
             $resultado=$objetoPDO->query($query);
             $cc->desconectarDB();
