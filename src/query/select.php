@@ -10,7 +10,7 @@ class select
     {
         try
         {
-            $cc= new Database("barberia","root","admin");
+            $cc= new Database("barberia","admin","1234");
             $objetoPDO=$cc->getPDO();
             $resultado=$objetoPDO->query($query);
             $fila=$resultado->fetchAll(PDO::FETCH_OBJ);
