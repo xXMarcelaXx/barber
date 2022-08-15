@@ -1,0 +1,83 @@
+@font-face {
+    font-family: barberia;
+    src: url(../img/Black\ Arcade\ Free.otf);
+}
+body
+{
+    background-color: #eeeeee;
+}
+h2
+{
+    margin-top: 1em;
+    text-align: center;
+    font-family: barberia;
+}
+.nav-item
+{
+    background-color: #c6c4c3;
+    border-radius: 5px;
+    
+}
+.nav-link
+{
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 18px;
+}
+#home
+{
+
+    padding-bottom: 25px;
+    
+}
+section
+{
+    margin-top: 1em;
+    background-color: none;
+}
+
+  /* estilo de inputs*/
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    
+  }
+  textarea
+  {
+    height:170px;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #af492c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #a06e45;
+  }
+  
+  /* estilo del contenedor contanos */
+  .container1 {
+    width: 50%;
+    font-family: barbero;
+    margin: auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+
+  

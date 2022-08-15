@@ -1,0 +1,53 @@
+@font-face {
+    font-family:barber;
+    src: url(../img/Barber\ Street_PersonalUseOnly.ttf);
+}
+
+body{
+    background-image: url(../img/barberia.jpg);
+}
+
+.formulario
+{
+background-color:rgba(0, 0, 0, 0.1) ;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 30px rgba(0, 0, 0, 0.568);
+}
+
+.ingresar{
+ background:#4b3621 ; 
+ color: white; 
+ padding: 10px;
+ font-size: 16px;
+ font-weight: 700;
+
+}
+.form-control{
+    background: rgba(0, 0, 0, 0.3);
+    border-style: none;
+    transition: 0,5s ease-in;
+    outline: none;
+    box-shadow: none;
+}
+.form-control ::focus{
+    background: none;
+    box-shadow: none;
+    outline: none;
+}
+.form-control ::placeholder{
+    color: white;
+}
+
+.olvide::hover{
+    color: white;
+    cursor: pointer;
+}
+h1
+{
+font-family:barber;
+text-align: center;
+color: rgb(255, 255, 255);
+letter-spacing: 0;
+text-shadow: -3px -3px 3px #e6b68b, 3px -3px 3px #e6b68b, -3px 3px 3px #e6b68b, 3px 3px 3px #e6b68b;
+}

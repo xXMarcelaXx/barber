@@ -1,0 +1,51 @@
+
+@font-face 
+{font-family:batman ;src: url(../IMG/DkcForever-ZGXq.ttf);}
+@font-face 
+{font-family:bat ;src: url(../IMG/Batman\ Evolution\ Logo\ Font\ G.ttf);}
+body
+{background-color: black;}
+h2
+{font-family: batman;color:white;text-align: center;margin: auto;}
+h2:hover
+{color: rgb(253, 239, 47);}
+h3
+{margin: auto;color:white;text-align: center;}
+h5
+{margin: auto;color:white;text-align: center;font-family: batman;font-size: 15px;}
+#bat
+{font-family: batman;font-size: 15px;color:white;background-color: black;}
+#bat:hover
+{color:  rgb(253, 239, 47);}
+#man:hover
+{color: rgb(253, 239, 47);}
+#man
+{font-family: bat;font-size: 20px;color: white;background-color: black;}
+img.ho
+{margin: auto;text-align: center;align-items: center;display: flex;}
+#ajuste 
+{padding-top: 1em;font-family: 'Franklin Gothic Medium' ;font-size: 17px; color: white;}
+#historia
+{padding-top: 1em;font-size:26px;font-family: batman;color: white;   }
+div.con3
+{text-align: center;width:35em;height: auto;border-color: none;padding-top: 1em;
+background-color: rgb(255, 255, 255);margin: auto;font-family: 'Franklin Gothic Medium', 'Arial Narrow';}
+h4
+{font-family:batman;}
+#inicio
+{font-family:bat;font-size: 25px;}
+div.con32
+{text-align: center;width:35em;height: auto;border-color: none;padding-top: 1em;
+background-color: rgb(255, 255, 255);margin: auto;}
+input
+{width:25em;height: 30px;border-color:black;border-radius: 5px;}
+button.inicio
+{background-color: white;border-color: gray;border-radius: 5px;width:12.5em;height: 30px;}
+button.inicio:hover
+{background-color: rgb(253, 239, 47);}
+label.aju
+{margin-right: 13em;}
+label.aju2
+{margin-right:20em;}
+label.aju3
+{margin-right: 20em;font-size: 13px;color: #005dab;font-family: Arial;justify-content: center;}

@@ -1,0 +1,16 @@
+body
+{
+background-color: beige;
+}
+.col-12
+{
+background-color: rgba(137, 43, 226, 0);
+} 
+.col-md-4
+{
+    background-color: rgba(137, 43, 226, 0);
+}
+.card
+{
+    background-color: rgba(245, 245, 220, 0);
+}

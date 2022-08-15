@@ -13,12 +13,12 @@
     <?php
     use barber\query\ejecuta;
     require("../../vendor/autoload.php");
-
+    $ex = $_POST['existencia'];
     $insert =new ejecuta();
 
     extract($_POST);
 $cadena="UPDATE productos SET nombre_producto='$nombre_producto',precio_compra=$precio_compra,
-costo=$precio_venta,descripcion='$descripcion',existencia=$existencia,cat_producto='$cat'
+costo=$precio_venta,descripcion='$descripcion',existencia=$ex,cat_producto='$cat'
  WHERE id_producto='$id_producto'";
 
     $insert->ejecutar($cadena);

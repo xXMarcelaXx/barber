@@ -4,46 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <script src="js/bootstrap.bundle.js"></script>
-    <title>Mi proyecto</title>
+	<link rel="shortcut icon" href="../img/logo.png">
+    <link rel="stylesheet" href="../integradora/css/estilo1.css">
+	<link rel="stylesheet" href="../integradora/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../integradora/css/fontello.css">
+    <title>classic cuts</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Mi Proyecto</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <header class="header">
+		<div class="container">
+		<div class="btn-menu">
+			<label for="btn-menu">☰</label>
+		</div>
+			<div class="logo">
+				<p>Classic Cuts</p>
+			</div>
+		    <div class="d-none d-md-block">
+			  <nav class="menu">
+			    	<a class="a"  href="#">Nosotros</a>
+				    <a class="a" href="#">Blog</a>
+				    <button type="button" class="btn btn-outline-light"><a href="views/iniciosesion.php" style="color: #000000;">Iniciar Sesion</a></button>
+			  </nav>
+			</div>
+		</div>
+	</header>
 
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Opciones
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="views/verCat.php ">Categorias</a></li>
-            <li><a class="dropdown-item" href="views/verPro.php">Productos</a></li>
-            <li><a class="dropdown-item" href="views/verSer.php">Servicios</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="views/nadia.php">nadia</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="views/pedidos.php">Pedidos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="views/ventas.php">Ventas</a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
+	<div class="capa"></div>
+<!--	--------------->
 
+	<div class="imagen-principal">
+		<img src="../integradora/img/224332370_222076429919035_4220628151061680865_n.jpg" alt="">
+	</div>
+
+<!--	--------------->
+<input type="checkbox" id="btn-menu">
+<div class="container-menu">
+	<div class="cont-menu">
+		<nav>
+			<a href="#">perfiles</a>
+			<a href="#">Servicios</a>
+			<a class="icon-facebook-squared" href="https://www.facebook.com/profile.php?id=100063500375166">Facebook</a>
+			<a  class="icon-instagram" href="https://www.instagram.com/Classic.Cuts_Barberia/">Instagram</a>
+			<div class="d-md-none d-xs-block">
+			 <button type="button" class="btn btn-outline-light"><a href="../integradora/views/iniciosesion.php" style="color: #ffff;">Iniciar Sesion</a></button>
+			</div>
+		</nav>
+		<label for="btn-menu" class="icon-login"></label>
+	</div>
+</div>
+<!--	--------------->
 </body>
-</html>
+</html> 

@@ -1,0 +1,30 @@
+body
+{background-color: white;}
+.h
+{background-image: url(../IMG/top_left.png),url(../IMG/top_right.png);background-position: left,right;
+background-repeat: no-repeat,no-repeat;border-style: solid ;border-width: 8px medium medium 1px;
+color:rgb(160, 120, 84);width: 100%;height: auto;}
+.h1
+{text-align: center;width: 100%;height: 3.5em;margin-top: 20px;}
+.barra 
+{background:rgb(160, 120, 84) ;min-height: 20px;}
+.panel
+{width: 40em;margin: auto;background:#EFE8D8;color: black;height: 20;}
+#panel
+{background-color:white;width: 29em;margin: auto;}
+input
+{border-radius: 5px;border-color: #DDC9A3;width: 34em;}
+.input-group-text 
+{font-size: 1.4rem;}
+ul li 
+{font-size: 20px;font-family: arial;color: grey;}
+.panel-heading
+{font-size: 25px;font-family: arial;color: black;}
+button.li
+{background-color: #235B4E ;border-radius: 5px;width: 8em;font-size: 25px;margin-left: 3em;height: 9em;
+color: white;border-color: black ;border-width: 1px;}
+button.li2
+{background-color: #286d5d ;border-radius: 5px;width: 8em;height: auto;color: white;
+border-color: black;border-width: 1px;}
+
+

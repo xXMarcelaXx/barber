@@ -1,38 +1,37 @@
 <?php
 namespace barber\Data;
-use PDO;
+Use PDO;
 use PDOException;
-
-class database
-{
-    public $objetoPDO;
+ class Database
+ {
+    public $objetoPDO=null;
     public $user="";
-    public $pass="";
+    public $password="";
     public $dbname="";
 
-    public function __construct(string $dbname,string $user,string $pass)
+    public function  __construct (string $dbname, string $user, string $password)
     {
-        $this->dbname=$dbname;
-        $this->user=$user;
-        $this->pass=$pass;
+        $this ->dbname =$dbname;
+        $this ->user=$user;
+        $this ->password=$password;
     }
 
     public function getPDO()
     {
         try{
-            $host= "mysql:host=localhost;dbname=$this->dbname";
-            $objetoPDO= new PDO($host,$this->user,$this->pass);
+            $host="mysql:host=localhost;dbname=$this->dbname";
+            $objetoPDO=new PDO($host,$this->user,$this->password);
             return $objetoPDO;
+            
         }
         catch(PDOException $e)
         {
             echo $e->getMessage();
+            
         }
     }
-
     public function desconectarDB()
     {
         $objetoPDO=null;
     }
-
-}
+ }

@@ -6,18 +6,23 @@ use barber\Data\Database;
 
 class ejecuta
 {
-    public function ejecutar($query)
+    public function ejecutar($qry)
     {
-        try
+        try 
         {
-            $cc= new Database("barberia","root","1234");
-            $objetoPDO=$cc->getPDO();
-            $resultado=$objetoPDO->query($query);
+            $cc = new Database("barberia","root","1234");
+            $objetoPDO= $cc->getPDO();
+            $resultado= $objetoPDO->query($qry);
+            $fila = $resultado->fetchAll(PDO::FETCH_OBJ);            
             $cc->desconectarDB();
+            return $fila;
+            
+            
         }
         catch(PDOException $e)
         {
-            echo $e->getMassage();
+            echo $e->getMessage();
         }
+        
     }
 }
